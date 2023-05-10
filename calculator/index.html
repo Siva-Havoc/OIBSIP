@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <table>
+        <tr id="display">
+            <td colspan="5">
+                <input type="text" class="screen" id="screen">
+            </td>
+        </tr>
+        <tr>
+            <td><button id="seven" onclick="display('7')">7</button></td>
+            <td><button id="eight" onclick="display('8')" value=8>8</button></td>
+            <td><button id="nine" onclick="display('9')" value=9>9</button></td>
+            <td><button id="per" onclick="display('%')" value="%">%</button></td>
+            <td rowspan="2"><button id="div" onclick="display('/')" value="/">÷</button></td>            
+
+            <!-- <td><button id="root" onclick="display('√')" value="root">&radic;</button></td>             -->
+        </tr><tr>
+            <td><button id="four" onclick="display('4')" value=4>4</button></td>
+            <td><button id="five" onclick="display('5')" value=5>5</button></td>
+            <td><button id="six" onclick="display('6')" value=6>6</button></td>
+            <td><button id="mul" onclick="display('*')" value="*">x</button></td>
+        </tr><tr>
+            <td><button id="one" onclick="display('1')" value=1>1</button></td>
+            <td><button id="two" onclick="display('2')" value=2>2</button></td>
+            <td><button id="three" onclick="display('3')" value=3>3</button></td>
+            <td><button id="add" onclick="display('+')" value="+">+</button></td>
+            <td><button id="min" onclick="display('-')" value="-">-</button></td>            
+        </tr><tr>
+            <td><button id="clear" onclick="clearScreen()">clear</button></td>            
+            <td><button id="zero" onclick="display('0')">0</button></td>
+            <td><button id="del" onclick="deleteChar()">del</button></td>
+            <td colspan="2"><button id="enter">Enter</button></td>
+                   
+        </tr>
+
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>

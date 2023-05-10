@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    margin: 0;
+    background-color: #7286D3;
+}
+table{
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    box-shadow: 2px 3px 10px black ;
+
+}
+table td{
+    width: 70px;
+    height: 70px;
+    font-size: 1.3;
+}
+#display{
+    height: 110px;
+}
+.screen {
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: right;
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E0FF;
+}
+tr{
+    padding: 0px 5px 0px 5px;
+}
+table button{
+    height: 100%;
+    width: 100%;
+    background-color: #8EA7E9;
+    border: 0px;
+}
+button:hover{
+    background-color:#E5E0FF ;
+}
+#div{
+    font-size: 1.3em;
+}
+h1{
+    font-size: 3em;
+    padding: 10px;
+}
